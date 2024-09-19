@@ -1,0 +1,38 @@
+/* Add this to your CSS file (e.g., /css/style.css) */
+
+.leaflet-control-compass {
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .compass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .compass div {
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .north {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .east {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+  
+  .south {
+    border-top: 1px solid #ddd;
+  }
+  
+  .west {
+    border-left: 1px solid #ddd;
+  }
+  
